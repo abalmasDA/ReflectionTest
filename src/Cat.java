@@ -6,7 +6,7 @@ public class Cat extends Animal {
 
     public void changeModifiers() throws NoSuchFieldException, IllegalAccessException {
 
-        Class<?> animalClass = Animal.class;
+        Class animalClass = Animal.class;
 
         Field name = animalClass.getDeclaredField("name");
         Field age = animalClass.getDeclaredField("age");
